@@ -1,12 +1,17 @@
 
+
 *{
-    background-color: black;
+    background-color: white;
+    Color: black;
+    font-family: 'Source Code Pro', monospace;
+
 }
 
 
 .header {
     
-     color: white;
+  border: black solid 2px;
+  border-radius: 20px;
      text-align: center;
      font-size: 0.9em;
 
@@ -14,7 +19,7 @@
 
 
 .nav-menu{
-     margin-top: 0;
+     margin-top: 10px;
      text-align: center;
      
     
@@ -23,26 +28,33 @@
 
 .item-nav-menu{
     text-decoration: none;
-    color: white;
+    border: black solid 1px;
+    border-radius: 5px;
     margin-left: 20px ;
     margin-right: 20px;
     font-size: 0.9em;
-}
-
-.data-home{
-    color:white;
+    padding: 5px;
     text-align: center;
 }
 
+.data-home {
+    text-align: center;
+    border: black solid 1px;
+    border-radius: 5px;
+
+}
+
 .Img-home{
-    margin-top: 10px;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: auto;
+    margin: auto;
 }
 
 .aboutMe{
-    color: white;
+    
     text-align: center;
     margin-top: 20px;
   
@@ -60,10 +72,15 @@
 }
 
 .education{
-    color: white;
+  
 }
 
 #Scilab{
-    color: rgb(190, 194, 191);
+    color: black;
     
+}
+
+.home{
+    border: black solid 2px;
+    border-radius: 20px;
 }
