@@ -8,24 +8,16 @@
     
      color: white;
      text-align: center;
+     font-size: 0.9em;
 
 }
 
 
 .nav-menu{
-     margin-top: 50px;
+     margin-top: 0;
      text-align: center;
      
     
-}
-
-
-
-.img-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
 }
 
 
@@ -34,4 +26,16 @@
     color: white;
     margin-left: 20px ;
     margin-right: 20px;
+    font-size: 0.9em;
+}
+
+.data-home{
+    color:white;
+    text-align: center;
+}
+
+.Img-home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
