@@ -50,9 +50,20 @@
 
 .info{
    display: inline-block;
+   margin-right: auto;
+   
 }
 
 .cont-aboutMe{
     display: inline-block;
-    width: 600px;
+    width: 750px;
+}
+
+.education{
+    color: white;
+}
+
+#Scilab{
+    color: rgb(190, 194, 191);
+    
 }
