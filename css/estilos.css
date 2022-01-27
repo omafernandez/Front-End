@@ -45,4 +45,13 @@
     color: white;
     text-align: center;
     margin-top: 20px;
+    display:inline-block;
+}
+
+.info{
+   display: inline-block;
+}
+
+.cont-aboutMe{
+    display: inline-block;
 }
