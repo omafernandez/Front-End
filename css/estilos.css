@@ -35,7 +35,14 @@
 }
 
 .Img-home{
+    margin-top: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.aboutMe{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
 }
