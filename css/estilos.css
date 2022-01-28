@@ -1,0 +1,24 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+
+body{
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.header{
+
+    background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%) url("../Imagenes/working-on-code.jpg");
+
+}
+
+
