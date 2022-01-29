@@ -72,6 +72,22 @@ right: 40%;
 .aboutMe{
 position: relative;
 margin-top: 90px;
+margin-bottom: 150px;
 
 }
+
+.info{
+position:absolute;
+right: 0;
+
+
+
+}
+
+.cont-aboutMe{
+text-align: left;
+
+}
+
+
 
