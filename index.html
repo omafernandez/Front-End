@@ -34,15 +34,16 @@
 
     <!--Cabecera-->
 
-  <div  class="header">
+  
     
-      <header>
+    <header>
+      <div id="inicio" class="header">
 
         <div class="Bienvenido">
-
-        <h1 id="inicio">Bienvenido.</h1>
-        <h3>Mi nombre es Omar. Este es mi sito Web.</h3>
-
+          <h1 >Bienvenido.</h1>
+          <h2>Mi nombre es Omar. Este es mi sito Web.</h2> <br>
+          <p>Diseñador y programador web.</p>
+          <a download="cv_FernandezOmar" href="Electrostática.docx">Descargar Curriculum Vitae.</a>
         </div>
 
             <!--Inclusion de efecto wawe / Analizar como es logrado. -->
@@ -55,7 +56,7 @@
 
             <!--Menu incluido en la cabecera--->
 
-        <nav>
+        <nav class="menu_padre">
 
           <div class="nav-menu">
         
@@ -69,32 +70,25 @@
           </div>
           
         </nav>
+      </div>
+    </header>
 
-      </header>
-
-  </div>
   
-    
-
-
-        <!--Cuerpo-->
+  <!--Cuerpo-->
 
 <main>
-<div>
 
+  <!--Section About Me-->
 
+      <section id="SobreMi" >
+        <div class="aboutMe">
 
-
-  
-</div>
-      
-      
-      <section id="SobreMi" class="aboutMe">
-         <div class="cont-aboutMe">
-           <h3>ACERCA DE MI</h3>
+         <div class="aboutMe__contacto">
+           <h2>ACERCA DE MI</h2>
            <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eveniet placeat asperiores voluptate, ratione modi iusto error odio provident earum impedit, debitis architecto eum possimus ad temporibus dignissimos commodi rem sapiente!Lorem</span> 
          </div>
-         <div class="info">
+
+         <div class="abinfo">
            <h3>Informacion</h3>
              <ul>
                <li>Omar Fernandez</li>
@@ -102,36 +96,122 @@
                <li>oma.fernandez@hotmail</li>
              </ul>
          </div>
+
+        </div>
       </section>
 
       <section class="education">
-     
+
         <div class="estudios">
           <h2>Formacion</h2>
-<ul>
-  <li>Titulo secuendario: <b>Tecnico Electromecanico</b>, EPET N° 12, San Martin de Los Andes, Neuquen, Argentina.</li>
-  <li>Licenciatura en Matematica en curso Universidad nacional del Comahue, Neuquen Capital, Argentina.</li>
-</ul>
-<p>
-  Programacion:<br>
-  <br>
-  Mis primeros pasos en la programacion los di en la licenciatura en Matematica, realizando proyectos en C++, en materias como calculo numerico. 
-  En ellas se utiliza la programacion para resolver problemas que no poseen solucion analitica. Como herramienta para el analisis numerico tambien hice uso de <a id="Scilab"href="https://www.scilab.org/" target="_blank" title="Scilab es un software para análisis numérico.">Scilab</a>, para desarrollar algoritmos. <br>
-  Luego me encamine en la programacion de formam autodidacta y ahora tomando cursos, como <strong>Argentina Programa</strong>. 
-</p>
-        </div>
 
+          <ul>
+             <li>Titulo secuendario: <b>Tecnico Electromecanico</b>, EPET N° 12, San Martin de Los Andes, Neuquen, Argentina.</li>
+             <li>Licenciatura en Matematica en curso Universidad nacional del Comahue, Neuquen Capital, Argentina.</li>
+          </ul>
 
-
-
+          <p>Programacion:<br><br>
+             Mis primeros pasos en la programacion los di en la licenciatura en Matematica, realizando proyectos en C++, en materias como calculo numerico. 
+             En ellas se utiliza la programacion para resolver problemas que no poseen solucion analitica. Como herramienta para el analisis numerico tambien hice uso de <a id="Scilab"href="https://www.scilab.org/" target="_blank" title="Scilab es un software para análisis numérico.">Scilab</a>, para desarrollar algoritmos. <br>
+             Luego me encamine en la programacion de formam autodidacta y ahora tomando cursos, como <strong>Argentina Programa</strong>. 
+          </p>
+      </div>
 
       </section>
+                  
+      <!--Habilidades-->
 
+      <section class="habilidades">
+        <div class="experiencia">
+          <h2>Mis habilidades</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam illum atque voluptate beatae corrupti. Ea sint veniam repudiandae, aspernatur fuga neque obcaecati quidem voluptate animi fugit laborum iusto delectus molestiae!
+          </p>
 
+          <ul>
+            <li>experiencia1</li>
+            <li>experiencia2</li>
+            <li>experiencia3</li>
+            <li>experiencia4</li>
+          </ul>
+        </div>
+      </section>
 
+      <section class="SectionServicio">
+        <div class="cont_servicio">
+          <h2>Servicios</h2>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores earum accusantium quam.</p>
+          <img class="img_servicio" src="Imagenes/working-on-code.jpg" alt="Servicio1">
+          <img class="img_servicio" src="Imagenes/working-on-code.jpg" alt="Servicio2">
+          <img class="img_servicio" src="Imagenes/working-on-code.jpg" alt="Servicio3">
+          <img class="img_servicio" src="Imagenes/working-on-code.jpg" alt="Servicio4">
+          <img class="img_servicio" src="Imagenes/working-on-code.jpg" alt="Servicio5">
+
+        </div>
+      </section>
+
+      <!--Cartera de proyectos-->
+
+      <section class="SectionProyectos">
+        <div class="cartera">
+          <h2>Proyectos</h2>
+          <img class="cartera__imagen" src="Imagenes/working-on-code.jpg" alt="proyecto1">
+          <img class="cartera__imagen" src="Imagenes/working-on-code.jpg" alt="proyecto2">
+          <img class="cartera__imagen" src="Imagenes/working-on-code.jpg" alt="proyecto3">
+          <img class="cartera__imagen" src="Imagenes/working-on-code.jpg" alt="proyecto4">
+
+        </div>
+      </section>
+
+     <!--Section Contacto-->
+
+      <section class="SectionContacto">
+        <div class="contacto">
+          <h2>Pongase en contacto.</h2>
+
+          <div class="contacto__info">
+            <ul>
+              <li>Llamada/whatsapp +54-299-5481983</li>
+              <li>Correo electronico oma.fernandez@hotmail.com</li>
+              <li>Ubicacion fisica, Neuquen Capital, Argentina.</li>
+            </ul>
+          </div>
+
+          <div class="formulario"> <!--falta analizar bien que hace el formulario/label-imput-->
+            <form action="/my-handling-form-page" method="post">
+              <ul>
+               <li>
+                 <label for="name">Nombre:</label>
+                 <input type="text" id="name" name="user_name">
+               </li>
+               <li>
+                 <label for="mail">Correo electrónico:</label>
+                 <input type="email" id="mail" name="user_mail">
+               </li>
+               <li>
+                 <label for="msg">Mensaje:</label>
+                 <textarea id="msg" name="user_message"></textarea>
+                 <input type="submit" value="Enviar mensaje" class="button contact__button">
+               </li>
+              </ul>
+             </form>
+          </div>
+        </section>
+
+          <!--Pie de pagina-->
+
+          <footer>
+            <div class="footer_container">
+              <h1>OMAR FERNANDEZ</h1>
+              <P>DISEÑADOR Y PROGRAMADOR WEB</P>
+              <a href="#" class=""></a>
+              <i class=""></i>
+              <p>Todos los derechos reservados por Omar Alfredo Fernandez Pellon</p>
+            </div>
+          </footer>
+          
 </main>
     
-
 </body>
 
 </html>
