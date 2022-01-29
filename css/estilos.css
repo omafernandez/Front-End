@@ -12,6 +12,7 @@ html{
 
 body{
     font-family: 'Mochiy Pop P One', sans-serif;
+    background-color: rgb(253, 255, 155);
 }
 
 .header{
@@ -70,24 +71,56 @@ right: 40%;
 
 
 .aboutMe{
+padding: 10px;
 position: relative;
-margin-top: 90px;
+margin-top: 70px;
 margin-bottom: 150px;
 
-}
-
-.info{
-position:absolute;
-right: 0;
-
 
 
 }
 
-.cont-aboutMe{
-text-align: left;
+.aboutMe__info{
+margin-bottom: 15px;
+text-align: center;
+
+
+
+}
+
+.aboutMe__contacto{
+
+margin-bottom: 50px;
+text-align: center;
+
+}
+.descarga_cv{
+color: black;
+text-decoration: none;
 
 }
 
 
+.img_servicio{
+    width: 150px;
+    height: 150px;
+    
+    margin: 20px;
+}
+
+.cont_servicio{    
+    
+}
+
+
+.cartera{
+    position: relative;
+}
+
+.cartera__imagen{
+    width: 150px;
+    height: 150px;
+    
+    margin: 20px;
+}
 
